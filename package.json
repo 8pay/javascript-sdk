@@ -1,0 +1,41 @@
+{
+  "name": "@8pay/sdk",
+  "version": "0.0.0",
+  "description": "JavaScript SDK for interacting with 8pay smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 30000 --exit",
+    "coverage": "nyc --all npm test",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8pay/javascript-sdk.git"
+  },
+  "keywords": [
+    "sdk",
+    "payments",
+    "contracts",
+    "blockchain"
+  ],
+  "author": "8pay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8pay/javascript-sdk/issues"
+  },
+  "homepage": "https://github.com/8pay/javascript-sdk#readme",
+  "dependencies": {
+    "@8pay/deployments": "^1.0.0",
+    "@8pay/tokens": "^1.0.0",
+    "ethers": "^5.4.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.30.0",
+    "mocha": "^9.0.2",
+    "nyc": "^15.1.0",
+    "web3": "^1.4.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@8pay/sdk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "JavaScript SDK for interacting with 8pay smart contracts",
   "main": "index.js",
   "scripts": {

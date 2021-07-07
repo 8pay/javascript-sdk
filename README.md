@@ -30,7 +30,7 @@ const Web3 = require('web3');
 const EightPay = require('@8pay/sdk');
 
 const web3 = new Web3('<provider-url>');
-const eightPay = new EightPaySDK(web3, EightPay.Network.BSC);
+const eightPay = new EightPay(web3, EightPay.Network.BSC);
 ```
 
 ### Sending transactions

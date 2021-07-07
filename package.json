@@ -1,7 +1,7 @@
 {
   "name": "@8pay/sdk",
   "version": "1.0.0",
-  "description": "JavaScript SDK for interacting with 8pay smart contracts",
+  "description": "JavaScript SDK for interacting with 8pay's smart contracts.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive --timeout 30000 --exit",

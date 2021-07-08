@@ -12,6 +12,7 @@ describe('Utils', () => {
     const rawAmount = '1';
     const expectedParsedAmount = '1000000000000000000';
     const actualParsedAmount = this.utils.parseAmount(rawAmount, 'BNB');
+
     expect(expectedParsedAmount).to.be.equal(actualParsedAmount);
   });
 
@@ -19,6 +20,7 @@ describe('Utils', () => {
     const rawAmount = '1000000000000000000';
     const expectedFormattedAmount = '1';
     const actualFormattedAmount = this.utils.formatAmount(rawAmount, 'BNB');
+
     expect(expectedFormattedAmount).to.be.equal(actualFormattedAmount);
   });
 });

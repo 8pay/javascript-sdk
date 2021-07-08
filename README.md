@@ -1,4 +1,5 @@
 # @8pay/sdk
+
 The SDK provides a way to programmatically interact with 8Pay's smart contracts along with some helper functions to simplify the integration process.
 
 ## Requirements

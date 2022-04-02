@@ -34,6 +34,13 @@ const web3 = new Web3('<provider-url>');
 const eightPay = new EightPay(web3, EightPay.Network.BSC);
 ```
 
+### Supported networks
+
+* BSC
+* ETHEREUM
+* POLYGON
+* SANDBOX
+
 ### Sending transactions
 
 There are two ways to **sign a transaction** before broadcasting it to the blockchain:

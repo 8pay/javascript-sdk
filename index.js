@@ -1,11 +1,11 @@
 'use strict';
+const Deployments = require('@8pay/deployments');
 const ContractLoader = require('./lib/core/contract-loader');
 const FixedRecurring = require('./lib/fixed-recurring');
 const VariableRecurring = require('./lib/variable-recurring');
 const OnDemand = require('./lib/on-demand');
 const accounts = require('./lib/accounts');
 const Utils = require('./lib/utils');
-const Network = require('./lib/network');
 
 class EightPay {
   constructor(web3, network) {
@@ -20,4 +20,4 @@ class EightPay {
 }
 
 module.exports = EightPay;
-module.exports.Network = Network;
+module.exports.Network = Deployments.Network;

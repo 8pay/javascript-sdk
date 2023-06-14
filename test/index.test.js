@@ -1,13 +1,13 @@
 'use strict';
 const { expect } = require('chai');
 const Web3 = require('web3');
+const Deployments = require('@8pay/deployments');
 const EightPay = require('..');
 const FixedRecurring = require('../lib/fixed-recurring');
 const VariableRecurring = require('../lib/variable-recurring');
 const OnDemand = require('../lib/on-demand');
 const Accounts = require('../lib/accounts');
 const Utils = require('../lib/utils');
-const Network = require('../lib/network');
 
 describe('EightPay', function () {
   it('should create an instance of EightPay', function () {
@@ -22,6 +22,6 @@ describe('EightPay', function () {
   });
 
   it('should expose networks', () => {
-    expect(EightPay.Network).to.be.equal(Network);
+    expect(EightPay.Network).to.be.equal(Deployments.Network);
   });
 });

@@ -27,7 +27,7 @@
   "homepage": "https://github.com/8pay/javascript-sdk#readme",
   "dependencies": {
     "@8pay/deployments": "1.7.0",
-    "@8pay/tokens": "1.8.0",
+    "@8pay/tokens": "1.11.0",
     "ethers": "^5.4.1",
     "validator": "^13.6.0"
   },
